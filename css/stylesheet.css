@@ -113,7 +113,7 @@ display: none;
 }
 .nav-links .drop-menu{
 position: absolute;
-background:#ebebeb;
+background:#fad8d7;
 width: 180px;
 line-height: 45px;
 top: 85px;
@@ -134,7 +134,7 @@ width: 100%;
 display: block;
 padding: 0 0 0 15px;
 font-weight: 400;
-line-height: 40px;
+line-height:35px;
 border-radius: 0px;
 border-bottom: 1px solid #d7d7d7;
 }
@@ -198,7 +198,18 @@ color:#fff;
 right: 30px;
 top: 10px;
 }
-
+.about-front-page {
+    min-height: 250px;
+}
+.about-front-page .col-md-12{
+    background-color: #ffefef;
+    padding: 10px 30px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px #707070;
+}
+.footer ul li a:hover{
+    text-decoration: none;
+}
 @media screen and (max-width: 970px) {
 .wrapper .btn{
 display: block;
