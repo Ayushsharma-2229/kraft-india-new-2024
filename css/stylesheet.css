@@ -283,7 +283,7 @@ transition: all 0.3s ease;
 #showDrop5:checked ~ .drop-menu,
 #showMega:checked ~ .mega-box,
 #showDrop6:checked ~ .drop-menu,
-#showMega:checked ~ .mega-box,.drop-menu li a
+#showMega:checked ~ .mega-box,
 #showDrop7:checked ~ .drop-menu,
 #showMega:checked ~ .mega-box,
 
@@ -404,6 +404,20 @@ background: #d3d3d300;}
     padding: 5px 5%;
     border-radius: 25px;
     font-family: math;
+}
+
+@media screen and (max-width:786px){
+    .t4s-section-title.t4s-section-title  {
+        padding: 0 0 10px 0;
+        font-size: 20px;
+    }
+    
+    .t4s-section-title.t4s-section-title span{
+        background-color: #fad8d7;
+        padding: 3px 5%;
+        border-radius: 25px;
+        font-family: math;
+    }
 }
 
     .t4s-section-title:after, .t4s-section-title:before {
